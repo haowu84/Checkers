@@ -1,13 +1,12 @@
 # Checkers
 
-In this project, implement a Checkers AI agent that can solve a Checkers game. 
+In this project, a Checkers AI is implemented using Monte Carlo Tree Search to solve a Checkers game. 
 
 ## Classes
 
 ### Board Class:  
 #### Summary  
 This part describes the structure of Board class under BoardClasses.py.     
-You can import/include this class into your AI file to use this class.  
 
 #### Variables (in the init function)   
 col: The number of columns.  
@@ -22,8 +21,7 @@ is_win: Check if there is a winner. Return which player wins.
 ### Move Class:
 #### Summary  
 This part describes the structure of Move class under Move.py.  
-This class already imported to your StudentAI.  
-Your AI must return a ‘Move’ object to describe the move.  
+AI must return a ‘Move’ object to describe the move.  
 
 #### Variables (in the init function)   
 l: list describing the move.  
@@ -34,7 +32,6 @@ from_str: Makes a move object from a str describing the move.
 ### Checker Class:
 #### Summary  
 This part describes the structure of Board class under Checker.py.     
-You can import/include this class into your AI file to use this class.  
 
 #### Variables (in the init function)   
 color: color of the checker piece.  
@@ -48,7 +45,7 @@ get_possible_moves: Returns all moves possible for this checker piece in the cur
 
 ## Running your AI: 
 ### Manual Mode
-After you compile your AI, use the following commands to run your AI in manual mode:   
+After compiling the AI, use the following commands to run your AI in manual mode:   
 ```bash
 python3 main.py {col} {row} {p} m {start_player (0 or 1)}
 ```
